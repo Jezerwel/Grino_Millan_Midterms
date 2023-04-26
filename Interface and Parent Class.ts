@@ -91,7 +91,6 @@ abstract class garden implements environmentallyControlledGarden {
   setRootZoneCoolingSystemState (state: boolean): void {
     this.rootZoneCoolingSystemState = state
   }
-
   getTemperature (): number {
     return this.temperature
   }
