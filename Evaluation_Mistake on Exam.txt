@@ -6,4 +6,5 @@ Jeff Andre Millan:
   Knowledge: 3
   Contribution: 4
 
-Mistake on the exam
+Mistake on the exam: 
+  What we realized was that the interface needed to have some kind of implementation. It seems that interfaces typically don't have set properties or methods implemented in them. Their main function is to provide a blueprint for how a class or object should be structured.
