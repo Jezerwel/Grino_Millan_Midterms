@@ -11,7 +11,7 @@ interface environmentallyControlledGarden {
   setTemperatureAndHumidity(temperature: number, humidity: number): void
 }
 
-abstract class garden implements environmentallyControlledGarden {
+export abstract class garden implements environmentallyControlledGarden {
   protected temperature: number
   protected humidity: number
   protected lightIntensity: number
@@ -91,6 +91,7 @@ abstract class garden implements environmentallyControlledGarden {
   setRootZoneCoolingSystemState (state: boolean): void {
     this.rootZoneCoolingSystemState = state
   }
+
   getTemperature (): number {
     return this.temperature
   }
